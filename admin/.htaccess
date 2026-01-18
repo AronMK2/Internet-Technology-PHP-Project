@@ -1,0 +1,6 @@
+# Basic Auth az admin mappára (admin / admin)
+AuthType Basic
+AuthName "PhoneX Admin"
+AuthUserFile "C:/xampp/htdocs/admin/.htpasswd"
+Require user admin
+DirectoryIndex index.php
